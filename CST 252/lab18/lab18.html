@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 18 Libraries and Frameworks 1</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Bootstrap Javascript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="js/lab18.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/lab18.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+  		<ul class="navbar-nav">
+    		<li class="nav-item">
+      			<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/">Home</a>
+    		</li>
+    		<li class="nav-item dropdown">
+    			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Labs 2-5</a>
+    			<div class="dropdown-menu">
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab2/helloworld.html">Lab 2: HTML and CSS Refresher</a>
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab3/index.html">Lab 3: File Structure and File Transfer</a>
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab4/">Lab 4: Pseudocoding and Problemsolving</a>
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab5/index.html">Lab 5: Data Types and Variables</a>
+    			</div>
+    		</li>
+    		<li class="nav-item dropdown">
+    			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Labs 6-9</a>
+    			<div class="dropdown-menu">
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab6/lab6.html">Lab 6: Arrays and Objects</a>
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab7/lab7.html">Lab 7: Funcitons</a>
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab8/lab8.html">Lab 8: Anon Funcitons and Callbacks</a>
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab9/lab9.html">Lab 9: Javascript for the Web</a>
+    			</div>
+    		</li>
+    		<li class="nav-item dropdown">
+    			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Labs 10-13</a>
+    			<div class="dropdown-menu">
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab10/lab10.html">Lab 10: Javascript Events and Callbacks</a>
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab11/lab11.html">Lab 11: Conditionals</a>
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab12/lab12.html">Lab 12: Loops</a>
+    				<a class="nav-link" href="http://myspace.csumb.edu/~jalbano/CST%20252/lab13/lab13.html">Lab 13: Basic Debugging</a>
+    			</div>
+    		</li>
+    		<li class="nav-item dropdown">
+    			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Labs 14-17</a>
+    			<div class="dropdown-menu">
+    				<a class="nav-link" href="../lab14/index.html">Lab 14: Javascript Classes and Objects</a>
+    				<a class="nav-link" href="../lab15/index.html">Lab 15: Object-Oriented Design</a>
+    				<a class="nav-link" href="../lab16/index.html">Lab 16: Librariers and Intro to jQuery</a>
+    				<a class="nav-link" href="../lab17/index.html">Lab 17: Advance jQuery</a>
+    			</div>
+    		</li>
+  		</ul>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>Lab 18 - Libraries & Frameworks 1</h1>
+			</div>
+		</div>
+		<br>
+		<div class="row" id="main-content">
+			<div class="col">
+				<h2>Challenge</h2>
+				<p>Work with a partner to create the proper folders and an index, css, and JavaScript files for this lab. And make sure you also put a link from your cst252 homepage to this lab. </p>
+			</div>
+			<div class="col">
+				<h2>Problems</h2>
+				<p>Didn't have any problems with this lab.</p>
+			</div>
+			<div class="col">
+				<h2>Results</h2>
+				<p>The result is to create a fixed, horizontal navbar using Bootstrap. I then changed it to a sticky navbar with dropdown links as shown above. I also implemented the collapsible sections using the accordion to this page as shown below.</p>
+			</div>
+		</div>
+		<br>
+<div id="accordion">
+			<div class="card text-dark">
+				<div class="card-header">
+					<a class="card-link" data-toggle="collapse" href="#collapseOne">
+						JeffSum #1
+					</a>
+				</div>
+				<div id="collapseOne" class="collapse show" data-parent="#accordion">
+					<div class="card-body">
+						Life finds a way. Life finds a way. You really think you can fly that thing? You really think you can fly that thing? Life finds a way. They're using our own satellites against us. And the clock is ticking. What do they got in there? King Kong? Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.
+					</div>
+				</div>
+			</div>
+			<div class="card text-dark">
+				<div class="card-header">
+					<a class="card-link" data-toggle="collapse" href="#collapseTwo">
+						JeffSum #2
+					</a>
+				</div>
+				<div id="collapseTwo" class="collapse" data-parent="#accordion">
+					<div class="card-body">
+						Jaguar shark! So tell me - does it really exist? Do you have any idea how long it takes those cups to decompose. Must go faster. Checkmate... God help us, we're in the hands of engineers. My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!
+					</div>
+				</div>
+			</div>
+			<div class="card text-dark">
+				<div class="card-header">
+					<a class="card-link" data-toggle="collapse" href="#collapseThree">
+						JeffSum #3
+					</a>
+				</div>
+				<div id="collapseThree" class="collapse" data-parent="#accordion">
+					<div class="card-body">
+						Must go faster. Must go faster. You know what? It is beets. I've crashed into a beet truck. I was part of something special. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Just my luck, no ice. What do they got in there? King Kong?
+					</div>
+				</div>
+			</div>
+			<div class="card text-dark">
+				<div class="card-header">
+					<a class="card-link" data-toggle="collapse" href="#collapseFour">
+						JeffSum #4
+					</a>
+				</div>
+				<div id="collapseFour" class="collapse" data-parent="#accordion">
+					<div class="card-body">
+						You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager? This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Hey, you know how I'm, like, always trying to save the planet? Here's my chance.
+					</div>
+				</div>
+			</div>
+			<div class="card text-dark">
+				<div class="card-header">
+					<a class="card-link" data-toggle="collapse" href="#collapseFive">
+						JeffSum #5
+					</a>
+				</div>
+				<div id="collapseFive" class="collapse" data-parent="#accordion">
+					<div class="card-body">
+						Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists. I was part of something special. God help us, we're in the hands of engineers. You know what? It is beets. I've crashed into a beet truck. My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!
+					</div>
+				</div>
+			</div>
+			<div class="card text-dark">
+				<div class="card-header">
+					<a class="card-link" data-toggle="collapse" href="#collapseSix">
+						JeffSum #6
+					</a>
+				</div>
+				<div id="collapseSix" class="collapse" data-parent="#accordion">
+					<div class="card-body">
+						God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. So you two dig up, dig up dinosaurs? You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager? My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

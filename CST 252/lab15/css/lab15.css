@@ -1,0 +1,22 @@
+body{
+	background: black;
+	color: red;	
+}
+
+h1{
+	color: red;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2{
+	font-size: 45px;
+	color: red;
+	text-align: center;
+}
+p{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: -25px;
+}

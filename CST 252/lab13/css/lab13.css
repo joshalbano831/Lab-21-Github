@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Didot', sans-serif;
+    color: #E6E6E6;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #333333;
+}
+
+img {
+    width: 400px;
+    padding-top: 105px;
+    padding-right: 60px;
+    float: right;
+    filter: drop-shadow(3px 3px 3px #222);
+}
+h1 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 45px;
+    color: pink;
+}
+h2 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 30px;
+    color: pink;
+}
+p {
+    padding-left: 15px;
+}

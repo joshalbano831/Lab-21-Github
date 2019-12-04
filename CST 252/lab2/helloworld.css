@@ -1,0 +1,82 @@
+.container {
+text-align: center;
+position: absolute;
+
+}
+.container span {
+color: white;
+text-transform: uppercase;
+display: block;
+size: 1000px;
+}
+.text1 {
+font-size: 200px;
+font-weight: 700;
+letter-spacing: 30px;
+margin-bottom: -20px;
+margin-top: -10px;
+margin-left: -10px;
+background: #CC0E00;
+position: relative;
+animation: text 3s 1;
+text-align: center;
+padding-right: 15px;
+padding-left: 15px;
+
+}
+.text2 {
+font-size: 100px;
+color: #6ab04c;
+padding-top:10px;
+text-align: center;
+}
+
+@keyframes text {
+0%{
+color: black;
+margin-bottom: -1025px;
+}
+50%{
+letter-spacing: 25px;
+margin-bottom: -1050px;
+}
+85%{
+letter-spacing: 8px
+margin-bottom: -2000px;
+}
+}
+/* ^code from DarkCode^ */
+
+body {
+margin-right: 50px;
+background: black;
+padding-right: 25px;
+letter-spacing: -1px;
+}
+p {
+font-size:35px;
+font-family: Georgia, serif;
+text-align: justify;
+color: white;
+animation: fadeIn 30s;
+}
+
+@keyframes fadeIn {
+from { opacity: -500;
+}
+to {
+opacity: 100;
+}
+}
+}
+img {
+float: left;
+padding-bottom: 150px;
+padding-bottom: 100px;
+height: 300px;
+}
+#content p {
+   padding-right: 50px;
+   padding-left: 50px;
+}
+} /*key frames*/

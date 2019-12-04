@@ -1,0 +1,85 @@
+body {
+	font-family: Comic Sans;
+	color: red;
+	background-color: black;
+	text-align: center;
+}
+h1 {
+	color: white;
+	font-size: 65px;
+}
+h2 {
+	font-size: 55px;
+}
+p {
+	font-size: 35px;
+}
+#button1 {
+	background-color: white;
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#button2 {
+	background-color: white;
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#button3 {
+	background-color: white;
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.fontchange{
+	font-stretch: expanded;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	text-align: center;
+	font-size: 60px;
+	color: #ffc0cb;
+}
+.fontfade{
+	animation: fadeIn 2s;
+}
+	@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+  	opacity: 1;
+  }
+} 
+
+.fontbig{
+	animation: type 3s steps(58);
+	overflow: hidden;
+	white-space: nowrap;
+	width: 60ch;
+	font-family: 'Brush Script MT', Brush Script Std, cursive;
+	text-align: center;
+}	
+@keyframes type {
+	0% {
+		width: 0ch;
+	}
+	100% {
+		width: 550ch;
+	}
+}
+	
+

@@ -1,0 +1,54 @@
+#headshot {
+	background: url('../images/bamboo.jpg');
+	background-repeat: no-repeat;
+	height: 500px;
+}
+#headshot img {
+	width: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 190px;
+	height: 400px;
+	width: 550px;
+	box-shadow: 10px 10px 10px;
+}
+#name {
+	padding-top: 50px;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	font-family: Stencil;
+}
+.title {
+	text-align: center;
+	font-size: 50px;
+}
+#title{
+	margin-top: -80px;
+	font-size: 60px;
+	text-align: center;
+	font-weight: bolder;
+}
+.education {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	background: #01296e;
+	color: #c6ab01;
+}
+.buttons{
+	
+}
+p {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+h2 {
+ font-size: 40px
+}
+body {
+	color: red;
+	background-color: black;
+}

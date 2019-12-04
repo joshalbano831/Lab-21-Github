@@ -1,0 +1,107 @@
+html {
+	height: 100%;
+}
+body {
+	font-family: 'Didot', sans-serif;
+	color: #E6E6E6;
+	margin: 0;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background: #333333;
+}
+
+img {
+	width: 400px;
+	padding-top: 105px;
+	padding-right: 60px;
+	float: right;
+	filter: drop-shadow(3px 3px 3px #222);
+}
+h1 {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 45px;
+	color: pink;
+}
+h2 {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 30px;
+	color: pink;
+}
+p {
+	padding-left: 15px;
+}
+a {
+	text-decoration: none;
+	font-size: 12px;
+	letter-spacing: 3px;
+	line-height: 50px;
+	color: red;
+}
+a:hover {
+	color: #E6E6E6;
+}
+#content {
+	border-radius: 25px;
+	border: 2px solid pink;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	/**width: 100%;
+	height: 100%;**/
+}
+/** Credit Online Tutorials @ Youtube - https://www.youtube.com/watch?v=IvW904CCnFs **/
+#content .results {
+	/**display: flex;**/
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	/**width: 500px;**/
+	padding: 40px;
+	background: #151515;
+}
+#content .results h2 {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+#content .results div input {
+	position: relative;
+	font-size: 14px;
+	height: 40px;
+	width: 35%;
+}
+div#output {
+	font-style: italic;
+}
+/*#content .results div input[type="text"] {
+	position: absolute;
+	background: none;
+	width: 100%;
+}*/
+#content .results div label {
+	color: white;
+}
+#links {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.button {
+	margin-top: 20px;
+	border: none;
+	box-shadow: none;
+	padding: 10px 25px;
+	background: #333;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.button:hover {
+	background: #FF9494;
+}
+.homelink {
+	float: left;
+}
+.jslink {
+	float: right;
+}

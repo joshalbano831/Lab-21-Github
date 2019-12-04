@@ -1,0 +1,20 @@
+body {
+	color: red;
+	background: black;
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+	font-family: sans-serif; 
+	text-shadow: 4px 4px 15px white;
+}
+h2 {
+	font-size: 50px;
+	font-family: sans-serif; 
+	text-shadow: 4px 4px 15px white;
+}
+
+p {
+	font-size: 30px;
+
+}
